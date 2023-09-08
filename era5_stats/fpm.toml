@@ -1,0 +1,24 @@
+name = "Furnas_Estatistics"
+version = "0.1.0"
+license = "GPL 3.0"
+author = "Rodrigues, L.F."
+maintainer = "luizfrodrigues@protonmail.com"
+copyright = "Copyright 2023, The Brams Team"
+
+[dependencies]
+toml-f.git = "https://github.com/toml-f/toml-f"
+
+[library]
+source-dir = "src"
+include-dir = "/home/lufla/apps/include"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+external-modules = ["netcdf"]
+link = ["netcdf", "netcdff"]
+
+[install]
+library = false
+

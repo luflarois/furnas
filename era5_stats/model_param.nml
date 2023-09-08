@@ -1,0 +1,12 @@
+$MODEL
+
+prefix = "/mnt/cempa/01/FURNAS/era5/", !Prefix with dir name
+suffix = "./20201001-20201031", !Suffix with output dir
+yeari  = 2020, !Ano do arquivo inicial
+monthi = 10,   !mes do arquivo inicial
+dayi   = 01,   !dia do arquivo inicial
+yearf  = 2020, !Ano do arquivo final
+monthf = 10,   !mes do arquivo final
+dayf   = 31    !dia do arquivo final
+
+$END

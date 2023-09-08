@@ -1,0 +1,12 @@
+$MODEL
+
+prefix = "/media/lufla/Backup_Lufla/data_furnas/", !Prefix with dir name
+suffix = "./20201214-20210214", !Suffix with output dir
+yeari  = 2020, !Ano do arquivo inicial
+monthi = 12,   !mes do arquivo inicial
+dayi   = 14,   !dia do arquivo inicial
+yearf  = 2021, !Ano do arquivo final
+monthf = 02,   !mes do arquivo final
+dayf   = 14    !dia do arquivo final
+
+$END
